@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Calculate Average
+![main page](https://github.com/mustafaberat/calculate-average/assets/mainpage.png)
+
 
 ## Getting Started
 
