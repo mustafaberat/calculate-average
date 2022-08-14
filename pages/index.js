@@ -105,7 +105,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <title>{title}</title>
@@ -113,7 +113,6 @@ export default function Home() {
           href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"
           rel="stylesheet"
         />
-        <script text="text/index.js" src="index.js"></script>
         <meta name="description" content={title} />
         <link rel="icon" href="/calculator.png" />
         <link
