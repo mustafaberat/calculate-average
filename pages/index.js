@@ -115,7 +115,7 @@ export default function Home() {
         />
         <script text="text/index.js" src="index.js"></script>
         <meta name="description" content={title} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/calculator.png" />
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -125,10 +125,9 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <body>
           <div className="container">
             <MyHeader title={title} />
-            <div id = "alertId" class="hide alert alert-primary" role="alert">{alertMsg}</div>
+            <div id = "alertId" className="hide alert alert-primary" role="alert">{alertMsg}</div>
             <div className="row">
               <div className="col"><MyBox title="Exam 1" id="midterm1note" pid="midterm1percentage"/></div>
               <div className="col"><MyBox title="Exam 2" id="midterm2note" pid="midterm2percentage"/></div>
@@ -155,10 +154,9 @@ export default function Home() {
             </div>
             <div className="col result">
               <div className="col"><h4 id="youraveragenote">0</h4></div>
-              <div className="col mt-2"><button type="button" onClick={calculateNotes} class="btn col-12">Calculate</button></div>
+              <div className="col mt-2"><button type="button" onClick={calculateNotes} className="btn col-12">Calculate</button></div>
             </div>
           </div>
-        </body>
       </main>
     </div>
   );
