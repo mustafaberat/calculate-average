@@ -1,0 +1,21 @@
+.main {
+  background-color: #072429;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #072429;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  padding-top: 14px;
+  font-size: 1.2rem;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+.hide {
+  display: none;
+}
