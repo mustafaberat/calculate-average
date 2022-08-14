@@ -1,5 +1,5 @@
 ## Calculate Average
-![main page](https://github.com/mustafaberat/calculate-average/assets/mainpage.png)
+![main page](https://github.com/mustafaberat/calculate-average/blob/main/assets/mainpage.png)
 
 
 ## Getting Started
